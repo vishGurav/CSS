@@ -1,0 +1,44 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+htnl,body
+{
+    width: 100%;
+    background-color: beige;
+}
+.d1
+{
+    height: 80px;
+    width: 500px;
+    margin: 100px auto;
+     position: relative; 
+    box-shadow: 1px 2px 15px 5px rgba(252, 233, 233, 0.795);
+
+
+}
+.d1 input
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;nnnnnn
+    font-size: large;
+    outline: none;
+    border: none;
+
+}
+.d1 button
+{
+    height: 50px;
+    width: 117px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    position:absolute;
+       left: 376px;
+     top: 13px;; 
+    border: none;
+}
