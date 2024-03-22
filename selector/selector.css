@@ -1,0 +1,28 @@
+.b
+{
+    color: blue;
+}
+.a
+{
+    color: red;
+}
+
+/* element selector */
+
+h1{
+    text-transform: capitalize;
+}
+
+/* group selector */
+
+h1,p
+{
+    color: yellowgreen;
+}
+
+/* class selector */
+
+.clr
+{
+background-color: orangered;
+}
