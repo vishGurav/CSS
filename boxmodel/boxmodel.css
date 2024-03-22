@@ -1,0 +1,40 @@
+*
+{
+box-sizing: border-box;
+}
+
+.b1,.b2
+{
+    background-color: black;
+    color: white;
+    height: 200px;
+    width: 200px;
+    border: 2px solid yellowgreen;
+    outline: 5px groove violet;
+    outline-offset: 10px;
+    box-shadow: 3px 3px 100px 10px burlywood;
+}
+
+.b1
+{
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 0px 50px;
+}
+
+.b2
+{
+    margin: 0px 0px 50px 50px;
+    padding: 70px 45px;
+    border-radius: 60px 0px;
+}
+
+img
+{
+    height: 250px;
+    width: 250px;
+    margin: 100px;
+    border-radius: 100%;
+    box-shadow: 10px 10px 80px 30px green;
+}

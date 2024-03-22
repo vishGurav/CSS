@@ -1,0 +1,43 @@
+h1
+{
+    background: #20e706;
+    text-size-adjust:30px ;
+    text-shadow: 5px 5px 30px 40px rgb(0, 26, 255);
+    width:100px;
+    padding: 5px 20px 5px 30px;
+    border: 5px solid rgb(14, 1, 1);
+    box-shadow: 5px 5px 60px 10px red;
+
+    font-style: italic;
+    
+    
+}
+img
+{
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    border: 5px solid rebeccapurple;
+    border-radius: 100%;
+}
+/* .pr p
+{
+    color: aqua;
+    background-color: black;
+    font-size: 30px;
+    width: 133px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 50px; 
+    box-sizing: border-box;   
+    padding: 5px 5px 4px 5px; XaZ
+
+} */
+*
+{
+    color: red;
+
+}
+.par,div
+{
+    color:blue;
+}
