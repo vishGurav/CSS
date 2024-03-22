@@ -1,0 +1,83 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+html,body
+{
+    width: 100%;
+    background-color: gainsboro;
+    background-image: url(https://bootstrapmade.com/demo/templates/Medicio/assets/img/slide/slide-1.jpg);
+}
+.wt
+{   height:80px;
+    width: auto;
+    
+    /* border: 1px solid red; */
+    background-color: white;
+    padding:15px 40px;
+    font-weight: bold; 
+   font-size: 15px;
+
+}
+.wt .ulbt
+{
+    margin-left:35px;
+    background-color: #3fbbc0;
+    color: white;
+    height: 43px;
+    width: 212px;
+    border: none;
+}
+.wt ul
+{
+    margin-left: 150px;
+    display: inline;
+    
+}
+.wt ul li
+{
+    display: inline;
+    padding:15px;
+   
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+.div1
+{
+    background:rgba(255, 255, 255, 0.9);
+    border-top: 5px solid #3fbbc0;
+    /* background-color: white; */
+    margin-top: 200px;
+    margin: 200px auto;
+    height: 250px;
+    width: 85%;
+    text-align: center;
+    padding:40px;
+}
+.div1 .p1
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.bt
+{
+    /* margin-left:35px; */
+    background-color: #3fbbc0;
+    color: white;
+    height: 43px;
+    width: 212px;
+    border: none;
+}
+section
+{
+    height: 500px;
+    width: 100%;
+    background-color: bisque;
+
+}
