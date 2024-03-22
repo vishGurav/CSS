@@ -1,0 +1,247 @@
+/* section 10  start*/
+.s10
+{
+    
+    height: 600px;
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+   
+}
+
+.s10div1
+{
+    height: 75%;
+    width: 90%;
+    /* border: 1px solid red; */
+    padding: 15px;
+   
+    background: #000;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    padding-top: 70px;
+    /* padding-left: 60px; */
+    gap: 20px;
+}
+.s10div1 .s10dchild
+{
+    height: 100%;
+    width: 15%;
+    /* border: 1px solid rgb(253, 253, 253); */
+    
+    display:flex;
+    flex-direction: column;
+    padding: 25px 20px;
+    gap: 25px;
+    color: white;
+
+}
+.s10dchild h4
+{
+    margin-bottom: 15px;
+    line-height: 14px;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif, Helvetica, Arial;
+    
+    
+}
+.s10dchild a
+{
+    text-decoration: none;
+    color: rgba(255,255,255,0.55);
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif, Helvetica, Arial;
+
+}
+.s10dchild a:hover
+{
+    color: white;
+}
+/* .s10div2
+{
+    height: 15%;
+    width: 97%;
+     border: 1px solid red; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.s10div2 .s10d2child1
+{
+    width: 65%;
+    height: 60%;
+     border: 1px solid black; 
+    font-size: 15px;
+    display: flex;
+    gap: 13px;
+}
+.s10d2child1 a
+{
+    text-decoration: none;
+    color: black;
+}
+.s10d2child1 a:hover
+{
+    text-decoration: underline;
+}
+.s10div2 .s10d2child2
+{
+    width: 35%;
+    height: 60%;
+    border: 1px solid black;
+    gap: 18px;
+    display: flex;
+    justify-content: end;
+
+}
+.s10div2 .s10d2child2 i
+{
+    font-size: 30px;
+    text-align: right;
+    border-radius: 50%;
+    color:#0a185c;
+    
+} */
+/* section 10 end */
+
+.s10div2
+{
+    height: 15%;
+    width: 90%;
+     /* border: 1px solid red; */
+     border-top: 1px solid rgba(255, 255, 255, 0.205); 
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    background: #000;
+    
+}
+.s10div2 .s10d2child1
+{
+    height: 30%;
+    width: 10%;
+     border: 1px solid black; 
+     /* border-right: 1px solid black; */
+    color: rgba(255,255,255,0.55);
+     
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+}
+
+.s10div2 .s10d2child1:hover
+{
+    color:white;
+}
+
+.s10div2 .s10d2child12
+{
+    height: 30%;
+    width: 28%;
+     border: 1px solid black; 
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 13px;
+    color: rgba(255,255,255,0.55);
+
+}
+.s10div2 .s10d2child12:hover
+{
+    color:white;
+}
+.s10div2 .s10d2child123
+{
+    height: 70%;
+    width: 20%;
+     border: 1px solid black; 
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content:right;
+    gap: 13px;
+    padding-right: 20px;
+    color: rgba(255,255,255,0.55);
+
+}
+.s10div2 .s10d2child123:hover
+{
+    color:white;
+}
+.s10div3
+{
+    height: 12%;
+    width: 90%;
+     /* border: 1px solid red; */
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background:black;
+    color: white;
+    
+}
+.s10div3 .s10dchild
+{
+    width: 40%;
+    height: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-evenly;
+    color: rgba(255,255,255,0.55);
+    align-items: center;
+    
+}
+.s10div3 .s10dchild .s10d2child11
+{
+    width: 25%;
+    height: 100%;
+    /* border: 1px solid red; */
+    color: rgba(255,255,255,0.55);
+    gap: 10px;
+
+}
+/* .s10div3 .s10dchild .s10d2child11 .i1
+{
+    
+    border: 1px solid yellow;
+} */
+
+.s10div3 .s10dchildd
+{
+    width: 40%;
+    height: 100%;
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.s10div3 .s10dchildd .s10dchildd1
+{
+    border: 1px sol white;
+    width: 50%;
+    height: 100%;
+    color: rgba(255,255,255,0.55);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content:right;
+}
+.s10div3 .s10dchildd .s10dchildd2
+{
+    border: 1px sol white;
+    width: 50%;
+    height: 100%;
+    color: rgba(255,255,255,0.55);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-around;
+}
