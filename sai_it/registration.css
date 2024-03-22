@@ -1,0 +1,170 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body
+{
+    width: 100%;
+    /* font-family: "Raleway", sans-serif; */
+
+    /* background-color: whitesmoke; */
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    background-image: url(bg3.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+
+   
+}
+/* navigation style */
+nav
+{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 9999;
+}
+.navi
+{
+    
+   height: 80px;
+   width: 100%;
+   /* border: 1px solid black; */
+  padding: 22px;
+  /* color: #006fbe; */
+      background-color: rgb(255 150 0);
+
+  box-shadow: 2px 0px 20px 3px #dcdcdc83;
+   
+
+}
+.navi h2
+{
+    color: #24325d;
+    margin-left: 126px;
+    display: inline;
+    margin-right: 370px;
+    font-family: "Poppins", sans-serif;
+
+}
+.navi ul
+{
+    display: inline;
+    /* border: 2px solid red; */
+}
+.navi ul li 
+{
+    display: inline;
+}
+.navi ul li a
+{
+    display: inline;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    color: #24325d;
+    
+    
+   
+
+    
+}
+
+
+
+/* {
+
+}
+{
+    text-decoration: none;
+    margin-left: 20px;
+} */
+.navi ul li a:hover
+{
+    color: #006fbe;
+}
+/* end nav bar */
+/* registration section start */
+
+.regi
+{
+    margin-top: 80px;
+    height: 700px;
+    width: 100%;
+    border: 5px solid rgb(230, 12, 12);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.maind1
+{
+    /* margin: 70px; */
+    height: 100%;
+    width: 65%;
+    /* border: 1px solid white; */
+    background-color:skyblue;
+    /* font-size: 26px; */
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* padding: 10px 40px; */
+    align-items: center;
+    
+
+
+
+}
+.d1
+{
+    margin-bottom: 10px;
+    
+    height: 40%;
+    width: 90%;
+    /* border: 1px solid white; */
+    background-color:rgba(245, 245, 245, 0.575);
+    font-size: 26px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* padding: 10px 40px; */
+    /* align-items: center; */
+
+
+}
+.d1 h4
+{
+    display: block;
+    width: 100%;
+}
+.d1 .i1
+{
+    height: 25%;
+    width: 60%;
+    border: none;
+    outline: none;
+    background-color: rgba(245, 245, 245, 0.01);
+    font-size: 18px;
+    color: white;
+    border-bottom: 1px solid black;
+
+}
+.d1 .l1
+{
+    display: inline-block;
+    width: 34%;
+}
+::placeholder
+{
+    color: white;
+}
+
+/* registration section end */
