@@ -1,0 +1,82 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+html,body
+{
+    width: 100%;
+    background-color: gray;
+
+}
+section
+{
+    height: 250px;
+    width: 300px;
+    margin: 50px auto;
+
+     border: 2px solid red; 
+    position: relative;
+    overflow: hidden;
+}
+ section img
+{
+    width: 100%;
+    height: 100%;
+     border: 2px solid greenyellow; 
+    transform: translate(0px,40px);
+    
+}
+.child
+{
+     border: 2px solid black; 
+   
+    height: 0%;
+    width: 100%;
+    background: rgba(255,255,255,0.8);
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0px;
+    transition: height,3s,2s;
+    visibility: hidden;
+    
+}
+.child .content
+{
+    height: 100%;
+    width: 50%;
+    padding: 20px;
+
+   border: 2px solid blue
+}
+.child .content p
+{
+    margin-top: 10px;
+}
+
+.child .icon
+{
+    border: 2px solid orangered; 
+    height: 100%;
+    width: 30%;
+    padding: 10px;
+    text-align: right; 
+    margin-top: 30px;
+
+}
+.child .icon i
+{
+   margin: 10px
+}
+section:hover .child
+{
+    height: 35%;
+    visibility: visible;
+
+}
+section:hover
+{
+    
+}
