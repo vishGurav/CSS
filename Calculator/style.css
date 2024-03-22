@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-color: whitesmoke;
+   
+}
+.d1
+{
+    border: 3px solid rgb(0, 0, 0);
+    width: 450px;
+    margin: 50px 450px;
+    background-color: rgba(63, 61, 61, 0.699);
+}
+h1{
+
+    
+    font-size: 50px;
+    color: aliceblue;
+    font-family: monospace;
+}
+input{
+    width: 75px;
+    height: 60px;
+    font-size: 45px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: rgba(31, 30, 30, 0.938);
+    color: rgb(252, 248, 248);
+    border-style: none;
+
+}
+
+.b1:hover{
+    background-color:rgb(8, 8, 8);
+    cursor: pointer;
+}
+.c{
+    background-color: rgb(201, 7, 7);
+}
+.c:hover
+{
+    background-color: rgb(252, 3, 3);
+}
+
+
+
