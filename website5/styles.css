@@ -1,0 +1,30 @@
+html{
+    font-family: 'OnePlus Sans Regular','Helvetica Neue',Helvetica,Arial,sans-serif,system-ui;
+} 
+h1{
+    font-weight:400;
+    font-size:34px;
+}
+i{
+    width: 54px;
+    height: 24px;
+    position: absolute;
+    right: 15px;
+    top: 3 px;
+}
+div{
+    margin:30px;
+}
+ul > li{
+    border-top: 1.5px solid rgb(231, 227, 227);
+    list-style-type: none;
+    padding:15px 0px;
+}
+details > summary {
+    cursor: pointer;
+    list-style:none;
+}
+details > p{
+    color: rgb(128, 126, 126);
+}
+  

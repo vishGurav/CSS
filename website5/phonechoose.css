@@ -1,0 +1,620 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:"OnePlus Sans Regular", "Helvetica Neue", Helvetica, Arial, sans-serif, system-ui;
+}
+html body
+{
+    background-color:white;
+    font-family:"OnePlus Sans Regular", "Helvetica Neue", Helvetica, Arial, sans-serif, system-ui;
+}
+.phone_details
+{
+    /* height: 550px; */
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.phone_details_child1
+{
+    width: 50%;
+    height: 550px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F4F4F4;
+}
+
+.pdchild1_div
+{
+    width: 55%;
+    height: 75%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    position: relative;
+    background-image: url("https://image01-in.oneplus.net/india-oneplus-statics-file/epb/202301/12/EnxEv7wWAeKGtzBD.png?x-amz-process=image/format,webp/quality,Q_80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:400px;
+  
+    
+}
+.pdchild1_div .cc1
+{
+    position: absolute;
+    bottom: 0px;
+    left: 35px;
+
+}
+.pdchild1_div .cc2
+{
+    position: absolute;
+    bottom: 0px;
+    left: 115px;
+    
+}
+.pdchild1_div .cc3
+{
+    position: absolute;
+    bottom: 0px;
+    left: 195px;
+    
+}
+.pdchild1_div .cc4
+{
+    position: absolute;
+    bottom: 0px;
+    left: 275px;
+    
+}
+.pdchild1_div_child
+{
+    width: 17%;
+    height: 15%;
+    /* border: 1px solid #0616f1; */
+    margin-bottom: 40px;
+    background-color: white;
+    padding: 5px;
+}
+.pdchild1_div_child img
+{
+    width: 100%;
+    height: 100%;
+
+}
+.pdchild1_div_child:hover
+{
+    border-bottom: 1px solid red;
+}
+.pdchild1_div2
+{
+    width: 35%;
+    height: 8%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+
+
+}
+.pdchild1_div2_content
+{
+    width: 50%;
+    height: 50%;
+    /* border: 1px solid green; */
+    /* border-right: 1px solid black; */
+    
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+.pdchild1_div2_content:hover
+{
+    color: #0616f1;
+}
+.dd
+{
+    border-right: 1px solid black;
+}
+.pdchild1_div2_content i
+{
+    margin-right: 5px;
+    margin-left: 25px;
+}
+
+/* .phone_details_child2 */
+
+.phone_details_child2
+{
+    width: 50%;
+    height: 100%;
+    border: 1px solid red;
+    padding: 70px;
+  
+}
+.phone_details_child2_section1
+{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid orange; */
+}
+.productprice
+{
+    width: 100%;
+    height: 250px;
+    /* border: 1px solid blueviolet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    border-bottom: 1px solid rgb(214, 210, 210);
+}
+.productprice_child1
+{
+    width: 100%;
+    height: 40%;
+    /* border: 1px solid red; */
+    
+    padding-top: 40px;
+    font-family: "OnePlus Sans Regular", "Helvetica Neue", Helvetica, Arial, sans-serif, system-ui;
+    font-size: 55px;
+}
+.productprice_child2
+{
+    width: 100%;
+    height: 15%;
+    /* border: 1px solid red; */
+    padding-top: 10PX;
+    font-size: 15PX;
+    color: rgba(0,0,0,0.75);
+    font-family: "OnePlus Sans Regular", "Helvetica Neue", Helvetica, Arial, sans-serif, system-ui;
+}
+.productprice_child3
+{
+    width: 100%;
+    height: 40%;
+    /* border: 1px solid red; */
+    font-size: 15PX;
+    
+    color: rgba(0,0,0,0.75);
+    padding-top:27PX;
+
+}
+.productprice_child3 h3
+{
+    font-size: 30PX;
+    font-family: "OnePlus Sans Regular", "Helvetica Neue", Helvetica, Arial, sans-serif, system-ui;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+.bt1
+{
+    height: 30px;
+    width: 100px;
+    border: 1px solid #f50514;
+    position: absolute;
+    bottom: 15px;
+    right: 30px;
+    color: #f50514;
+    background-color: white;
+    border-radius:5px;
+    font-size: 12px;
+}
+.phone_details_child2_section2
+{
+    width: 100%;
+    height: 270px;
+    /* border: 1px solid rebeccapurple; */
+    border-bottom: 1px solid rgb(214, 210, 210);
+
+}
+.phone_Details_color
+{
+    width: 100%;
+    height: 45%;
+    /* border: 1px solid red; */
+}
+.phone_Details_ram
+{
+    width: 100%;
+    height: 45%;
+    /* border: 1px solid red;    */
+}
+.phone_Details_c_child
+{
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid rgb(4, 0, 255); */
+    display: flex;
+    align-items: center;
+    font-family: "OnePlus Sans Regular", "Helvetica Neue", Helvetica, Arial, sans-serif, system-ui;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.color_imgcontent
+{
+    margin-left: 20px;
+    width: 11%;
+    height: 90%;
+    border: 1px solid rgb(117, 117, 117);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.color_imgcontent img
+{
+    height: 85%;
+    width: 85%;
+}
+.color_btt
+{
+    padding: 15px 10px;
+    margin-left: 5%;
+    width: 47%;
+    height: 90%;
+    border: 1px solid rgb(143, 142, 142);
+    font-size: 15px;
+    font-weight: 500;
+}
+.phone_details_child2_section3
+{
+    width: 100%;
+    height: 250px;
+    /* border: 1px solid rebeccapurple; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-bottom: 1px solid rgb(214, 210, 210);
+    
+}
+ .phone_details_child2_section3 .section3_child
+{
+    width: 100%;
+    height: 30%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.phone_details_child2_section3 .section3_child h3
+{
+    font-size: 23px;
+    font-weight: 500;
+}
+.phone_details_child2_section3 .loc
+{
+    display: flex;
+    
+    /* align-items: center; */
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    background-color: #F4F4F4;
+
+}
+.section3_child_div1
+{
+    width: 10%;
+    height: 60%;
+    /* border: 1px solid black; */
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #262626;
+}
+.section3_child_div2
+{
+    width: 65%;
+    height: 60%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    
+}
+.section3_child a
+{
+    color: #000000;
+    font-size: 16px;
+}
+.section3_child a:hover
+{
+    color: #007bff;
+}
+.section3_child_div2 a
+{
+    text-decoration: none;
+    color: #007bff;
+    font-size: 18px;
+    font-family: "OnePlus Sans Regular", "Helvetica Neue", Helvetica, Arial, sans-serif, system-ui;
+}
+
+
+.phone_details_child2_section4
+{
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid rebeccapurple; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-bottom: 1px solid rgb(214, 210, 210);
+    
+}
+.section4_child1
+{
+    width: 100%;
+    height: 20%;
+    /* border: 1px solid red; */
+    
+    color: #262626;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.section4_child1 h3
+{
+    font-size: 24px;
+    font-weight: 500;
+}
+.section4_child2
+{
+    width: 100%;
+    height: 10%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    
+}
+.section4_child2 i
+{
+    font-size: 20px;
+    margin: 10px;
+    color: rgb(77, 121, 13);
+}
+.section4_child2:hover i
+{
+    color: red;
+}
+.section4_child3
+{
+    width: 100%;
+    height: 60%;
+    /* border: 1px solid red; */
+}
+.section4_child3_title
+{
+    width: 100%;
+    height: 15%;
+    /* border: 1px solid green; */
+    display: flex;
+    /* justify-content: center; */
+    align-items:center;
+}
+.section4_child3_banks_card
+{
+    width: 100%;
+    height: 85%;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    overflow-x: auto;
+    
+}
+.section4_child3_card
+{
+
+    width: 45%;
+    height: 100%;
+    /* border: 1px solid orange; */
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    flex-direction: column;
+    background-color: #F8F8F8;
+    
+
+}
+.section4_child3_card_logo
+{
+    width: 40%;
+    height: 20%;
+    /* border: 1px solid indigo; */
+}
+.section4_child3_card_logo img
+{
+    width: 100%;height: 100%;
+}
+.section4_child3_card_content
+{
+    /* margin-top: 0px; */
+    width: 100%;
+    height: 40%;
+    /* border: 1px solid indigo; */
+    color:#3f3d3d;
+    display: flex;
+    align-items:center;
+
+}
+.section4_child3_card_detail
+{
+    width: 100%;
+    height: 20%;
+    /* border: 1px solid indigo; */
+    
+    color: #000000;
+
+}
+.section4_child3_card_detail a
+{
+    color: black;
+}
+.section4_child3_card_detail a:hover
+{
+    color: #007bff;
+}
+
+
+.phone_details_child2_section5
+{
+    width: 100%;
+    height: 700px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.section5_child1
+{
+    width: 100%;
+    height: 50%;
+    border: 1px solid blue;
+}
+.section5_child1 h3
+{
+    font-size: 29px;
+    margin-top: 20px;
+}
+.section5_child1 table tr td{
+    /* border: 1px solid black; */
+    height: 75%;
+}
+table:tr
+{
+    margin-top: 10px;
+    height: 30px;
+}
+td:first-child
+{
+    width: 20px;
+    height: auto;
+    font-size: 30px;
+    /* background-color: aqua; */
+   
+}
+.section5_child1 table
+{
+    
+    height: 200px;
+    margin-top: 50px;
+    font-size: 16px;
+    line-height: 24px;
+    border-collapse:separate;
+}
+
+.section5_child1 table tr td
+{
+    margin: 10px;
+}
+.section5_child1 table tr td input
+{
+    color: #f50514;
+}
+.section5_child2
+{
+    width: 100%;
+    height: 10%;
+    border: 1px solid blue;
+    display: flex;
+    justify-content:center;
+    padding: 0px 20px;
+    background-color:#F8F8F8;
+}
+.section5_child2_div1
+{
+    width: 15%;
+    height: 100%;
+    /* border: 1px solid orange; */
+    
+}
+.section5_child2_div1 img
+{
+    width: 100%;
+    height: 100%;
+}
+.section5_child2_div2
+{
+    width: 80%;
+    height: 100%;
+    /* border: 1px solid orange; */
+   
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.section5_child3
+{
+    width: 100%;
+    height: 25%;
+    border: 1px solid blue;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.section5_child3_div1
+{
+    width: 100%;
+    height: 15%;
+    /* border: 1px solid rgb(255, 0, 0); */
+    color:#000000;
+    font-family:"OnePlus Sans Regular", "Helvetica Neue", Helvetica, Arial, sans-serif, system-ui;
+}
+.section5_child3_div2
+{
+    width: 100%;
+    height: 80%;
+    /* border: 1px solid rgb(255, 17, 0); */
+    background-color: #F8F8F8;
+
+}
+.section5_child3_div2_child1
+{
+
+    width: 100%;
+    height: 65%;
+    /* border: 1px solid rgb(30, 30, 34); */
+    border-bottom: 1px solid rgb(185, 182, 182);
+    display: flex;
+    justify-content: space-evenly;
+}
+.section5_child3_div2_child1 img
+{
+    width: 80px;
+    height: 80px;
+}
+.section5_child3_div2_child2
+{
+
+    width: 100%;
+    height: 35%;
+    /* border: 1px solid rgb(30, 30, 34); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section5_child3_div2_child2 a
+{
+    text-decoration: none;
+    color:#007bff;
+    font-size: 17px;
+}
+
+
+
+
