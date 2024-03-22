@@ -1,0 +1,297 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body
+{
+    width: 100%;
+    /* font-family: "Raleway", sans-serif; */
+
+    /* background-color: whitesmoke; */
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+   
+}
+.navi
+{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 9999;
+}
+.navi
+{
+    
+   height: 80px;
+   width: 100%;
+   /* border: 1px solid black; */
+  padding: 22px;
+  /* color: #006fbe; */
+  background-color: white;
+  box-shadow: 2px 0px 20px 3px #dcdcdc83;
+   
+
+}
+.navi h2
+{
+    color: #24325d;
+    margin-left: 126px;
+    display: inline;
+    margin-right: 370px;
+    font-family: "Poppins", sans-serif;
+
+}
+.navi ul
+{
+    display: inline;
+    /* border: 2px solid red; */
+}
+.navi ul li 
+{
+    display: inline;
+}
+.navi ul li a
+{
+    display: inline;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    color: #24325d;
+}
+.navi ul li a:hover
+{
+    color: #006fbe;
+}
+
+/* *end navigation bar */
+.navi_ourstory
+{
+
+    height: 56px;
+    width: 100%;
+    margin-top: 80px;
+    /* border: 1px solid red; */
+    background-color: #f5f7fbf3;
+}
+.navi_ourstory h1
+{
+    display: inline-block;
+    margin-left: 133px;
+    margin-right: 830px;
+    padding-top: 8px;
+    font-family: "Raleway", sans-serif;
+    font-size: 28px;
+    margin-bottom: 0;
+    font-weight: 300;
+    color: #444444;
+}
+.navi_ourstory ul
+{
+    display: inline;
+}
+.navi_ourstory ul li
+{
+    display: inline;
+    font-family: "Raleway", sans-serif;
+   
+    margin-bottom: 0;
+    font-weight: 300;
+    color: #444444;
+}
+.navi_ourstory ul li a
+{
+    margin-right: 10px;
+    text-decoration: none;
+}    
+.d1
+{
+    height: 550px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    padding: 70px 100px;
+    justify-content: space-between;
+    
+   
+    
+    
+}
+.d1 .d1-img
+{
+    height: 100%;
+    width: 48%;
+    /* border: 1px solid black; */
+}
+.d1 .d1-img img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.d1 .d1-content
+{
+    height: 100%;
+    width: 48%;
+    /* border: 1px solid black;  */
+}
+.d1 .d1-content h3
+{
+    font-weight: 600;
+    font-size: 26px;
+    
+}
+.d1 .d1-content p
+{
+    margin-top: 10px;
+    font-style: italic!important;
+    margin-bottom: 10px;
+}
+.d1 .d1-content ul li{
+    list-style-type: none;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    line-height: 1cm;
+    
+}
+.d1 .d1-content ul li .i1
+{
+    color: #1e5d8ac4;
+    margin-right: 15px;
+    font-size: 15px;
+}
+.d1 .d1-content .p1
+{
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    line-height: 0.6cm;
+    margin-top: 25px;
+    /* font-size: 20px; */
+}
+/* end conten part */
+/* start banner hover */
+.d2
+{
+    height: 610px;
+    width: 100%;
+    /* border: 1PX solid black; */
+    padding:50px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.d2 .d2-banner
+{
+    height: 100%;
+    width: 350px;
+    /* border: 1PX solid RED; */
+    /* background-color: #444444; */
+    
+}
+.d2 .d2-banner .d2-banner-img
+{
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid blueviolet; */
+    position: relative;
+    overflow: hidden;
+  
+}
+.d2 .d2-banner .d2-banner-img img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.d2 .d2-banner .d2-banner-img-over
+{
+   width: 100%;
+   height: 0%; 
+    /* border: 1px solid rgb(228, 32, 18); */
+    
+    background: rgba(0, 111, 190, 0.8);
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    text-align: center;
+    color: white;
+    transition:all,1s;
+    visibility: hidden;
+}
+.d2 .d2-banner .d2-banner-img-over i
+{
+    font-size: 24px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 30px;
+
+}
+.d2 .d2-banner .d2-banner-img:hover .d2-banner-img-over
+{
+    height: 20%;
+    visibility: visible;
+}
+.d2 .d2-banner h5
+{
+    margin-top: 10px;
+    font-size: 18px;
+  
+    margin-bottom: 4px;
+    font-family: "Raleway", sans-serif;
+}
+.d2 .d2-banner p
+{
+    font-size: 12px;
+    color: #5c5ce4c9;
+}
+.d2 .d2-banner .p2
+{
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 26px;
+    color: #777777;
+}
+
+
+/* end banner hover */
+/* *start footer  */
+.footer
+{
+    height: 350px;
+    width: 100%;
+    /* border: 1px solid red; */
+    text-align: center;
+    background-color: #052c65;
+    color: white;
+    padding-top: 20px;
+
+}
+.footer .hh
+{
+    
+    font-size: 40px;
+}
+.footer .p1
+{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.footer i
+{
+    font-size: 40px;
+    padding-left: 30px;
+    /* background-color: #006fbe; */
+    color: white;
+}
+.footer p
+{
+    margin-top: 30px;
+}
+
+/* * end footer */
+
+
