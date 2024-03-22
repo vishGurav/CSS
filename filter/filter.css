@@ -1,0 +1,21 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body
+{
+    width: 100%;
+   
+}
+img
+
+{
+    display: inline;
+    filter: grayscale(100%);
+}
+img:hover
+{
+    filter: none;
+}
