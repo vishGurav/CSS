@@ -1,0 +1,42 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html,body
+{
+    width: 100%;
+}
+.banner
+{
+    border: 2px solid black;
+    padding: 10px;
+    height: 400px;
+    width: 30%;
+    
+
+}
+.banner img
+{
+    
+    height: 50%;
+    width: 100%;
+    border: none;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+   
+}
+.banner .bg
+{
+
+        text-align: center;
+        
+}
+.banner .bg h2
+{
+    margin: 20PX;
+}
