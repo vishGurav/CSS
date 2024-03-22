@@ -1,0 +1,33 @@
+.flex{
+    display: flex;
+}
+.items-center {
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.semibold{
+    font-weight: bolder;
+}
+.space-between{
+    justify-content: space-between;
+}
+.mx-2{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.sec-title{
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    padding: 2rem 0 3rem 2rem;
+    max-height: 5em;
+    font-weight: 700;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
