@@ -1,0 +1,131 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body
+{
+    width: 100%;
+    background-color: gainsboro;
+}
+.d1
+{
+    /* border: 2px solid red; */
+    height: 100px;
+    width: 100%;
+    text-align: center;
+
+}
+.d1 p
+{
+    margin: 20px;
+
+}
+.s1
+{
+    height: 400px;
+    width: 100%;
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.d2
+{
+    margin-left: 7%;
+    margin-right: 3%;
+    height: 400px;
+    width: 28%;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    
+} 
+.d2 .dd2
+{
+    
+    height: 30%;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    
+}
+.img1
+{
+    height: 90%;
+    width: 30%;
+    margin: 5px;
+    /* border:1px solid red; */
+    background: url("./bb.jpg");
+    
+}
+
+.ddd2
+{
+    height: 100%;
+    width: 70%;
+    /* border:1px solid red; */
+    
+}
+.ddd2 h1,p
+{
+    margin: 10px;
+}
+
+.d2 .m1
+{
+    margin-top: 5%;
+}
+.s1 .d3
+{
+    height: 400px;
+    width: 55%;
+    /* border: 2px solid green; */
+    background-color: white;
+    margin-right: 7%; 
+    padding: 20px;
+    
+} 
+.t1
+{
+    display: inline-block;
+    height: 45px;
+    width: 335px;
+    margin: 10px 5px;
+} 
+.t2
+{
+    display: inline-block;
+    height: 45px;
+    width: 683px;
+    margin: 10px 5px;
+} 
+.ta
+{
+    display: flex;
+    height: 150px;
+    width: 97%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    /* margin-right: 5px; */
+    margin-left: 5px;
+    
+
+}
+.bt
+{
+    /* border: 2px solid red; */
+    height: 50px;
+    width: 190px;
+    margin-left: 37%;
+    background-color: #7cc576;
+    border: none;
+    color: white;
+    
+
+
+}
