@@ -1,0 +1,16 @@
+h1
+{
+    color: blueviolet;
+    text-decoration: underline;
+    text-decoration-color: aqua;
+}
+
+h2
+{
+    text-transform: uppercase;
+    text-align: justify;
+    line-height: 50px;
+    word-spacing: 20px;
+    letter-spacing: 15px;
+    text-shadow: 10px 10px 10px red;
+}
