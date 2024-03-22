@@ -1,0 +1,36 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    width: 100%;
+}
+.s1
+{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.s1
+{
+    
+    text-decoration: none;
+    color: black;
+}
+.btn
+{   
+    display:flex;
+    text-align: center;
+    padding-top: 20px;
+    height: 70px;
+    width:300px;
+    border: 2px solid black;
+    margin: 10px;
+    justify-content: center;
+
+}
